@@ -1,0 +1,268 @@
+/*https://coolors.co/274060-335c81-65afff-1b2845-5899e2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+body {
+font-family: inria sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #099900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    color: white;
+    margin: 2px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+}
+
+.buttons a {
+  text-decoration: underline;
+  color: white;
+  font-size: 16px;
+}
+
+.buttons a:hover {
+  text-decoration: none;
+}
+
+
+.rubrik{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+
+
+.canvas {
+  background-color: #BBBBBB;
+  margin-left: 35px;
+  margin-top: 135px;
+  width: 550px;
+  height: 450px;
+}
+
+.canvas2 {
+  background-color: #BBBBBB;
+  margin-left: 450px;
+  margin-top: -600px;
+  width: 390px;
+  height: 280px;
+}
+
+.label{
+  margin: 15px;
+  color: white;
+  font-family: inria sans-serif;
+}
+
+.label1{
+  padding: 29px;
+}
+
+.label2{
+  padding: 29px;
+}
+
+.label3{
+  padding: 29px;
+}
+
+.label4{
+  padding: 29px;
+}
+
+.label0{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.info{
+  margin: 20px;
+  font-size: 28px;
+  font-family: inria sans-serif;
+  margin-top: 50px;
+}
+
+/* Menu */
+.menu1 {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.menu {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-category {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #BBBBBB;
+  box-shadow: 4px 4px 4px  #099900;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu-category:hover {
+  background-color: #e6e6e6;
+  color: #404040;
+}
+
+.menu-category h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-category img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 600px;
+  height: 335px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.back_to_menu {
+  position: absolute;
+  left: 530px;
+  margin-top: 30px;
+}
+
+.back-button {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.main__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main__1st {
+  margin-right: 50px;
+}
+
+.main__btn {
+  font-size: 1rem;
+  background-color: #099900;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  text-decoration: none;
+}
+
+.main__start--h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main__btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
